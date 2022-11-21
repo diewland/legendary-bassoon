@@ -33,5 +33,5 @@ metadata = {
 for id in range(0, TOKEN_SIZE):
     metadata["name"] = "{} #{}".format(NAME, id)
     metadata["image"] = IMG.format(id)
-    with open("./{}/{}.json".format(OUTPUT_DIR, START_ID + id), "w") as f:
+    with open("./{}/{}".format(OUTPUT_DIR, START_ID + id), "w") as f:
         json.dump(metadata, f, ensure_ascii=False)
