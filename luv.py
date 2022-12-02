@@ -7,7 +7,7 @@ OUTPUT_DIR = os.path.basename(__file__).split('.')[0]
 
 NAME = "This is Love"
 DESC = "500 NFTs to celebrate Apetimism Launchpad (Self-Serve) with ❤️"
-IMG = "https://diewland.github.io/legendary-bassoon/assets/Notes_221202_225347.jpg"
+IMG = "https://diewland.github.io/legendary-bassoon/assets/Notes_221202_225347.png"
 ATTRS = [
     {
       "display_type": "date", 
